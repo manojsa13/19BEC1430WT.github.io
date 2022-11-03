@@ -3,12 +3,12 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0 ">
-        <title>Movie website</title>
+        <title>Movie Info App in Javascript</title>
         <link rel="stylesheet" href="http://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
     </head>
     <body>
         <div class="container">
-            <h1 class="text-center mt-5">Movies Website</h1>
+            <h1 class="text-center mt-5">Movie Info App</h1>
             <form id="movieForm" autocomplete="off">
                 <div class="form-group">
                     <label for="Movie">Movie Name</label>
@@ -20,9 +20,10 @@
                     </button>
 
                 </div>
-                <div id="result"></div>
-
+               
             </form>
+            <div id="result"></div>
+
 
 
         </div>
@@ -31,7 +32,7 @@
     <script> 
           $(document).ready(function() {
 
-            var apikey = "6f172b81"
+            var apikey = "34795637"
 
             $("#movieForm").submit(function(event){
                 event.preventDefault()
